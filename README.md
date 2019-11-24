@@ -52,8 +52,6 @@ Returns all values stored.
 
 This operation will store scalar values as well as arrays. However **please note** that this operation already uses json_encode.
 
-If you'd like to add your own custom options for the encoding use `$db->put_raw(json(encode($key, WHATEVER_JSON_OPTION)))` instead. 
-
 ## Get
 
 `$db->get($key)` 
