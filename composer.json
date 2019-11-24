@@ -1,0 +1,32 @@
+{
+    "name": "easydb-io/easydb",
+    "description": "A PHP client for easydb.io",
+    "type": "library",
+    "require": {
+        "vlucas/phpdotenv": "^3.6",
+        "guzzlehttp/guzzle": "^6.4",
+        "ext-json": "*",
+        "php": "^7.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "EasyDB\\": "./src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\": "./tests"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ronald Jordan",
+            "email": "amisword@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^8.4"
+    }
+}
