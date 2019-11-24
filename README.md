@@ -1,6 +1,6 @@
 # EasyDB
 
-This is the PHP client to connect with easydb.io databases.
+This is the PHP client to connect with [easydb.io](https://easydb.io/) databases.
 
 
 # Installation
@@ -30,7 +30,7 @@ But as soon as it's on packagist you can just do a composer install.
 
 `$db = new EasyDB('db1', $config); `
 
-This assumes your environment variables are already loaded and you are using this not as a part of a framework.
+This assumes your environment variables are already loaded and you are not using this as a part of a framework.
  
 For example, if you are using  Laravel, you could just do this:
 
